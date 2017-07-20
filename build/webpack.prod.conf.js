@@ -116,7 +116,7 @@ var webpackConfig = merge(baseWebpackConfig, {
           handler: 'cacheFirst'
         },
         {
-          urlPattern: /^https:\/\/code\.getmdl\.io\//,
+          urlPattern: /^https:\/\/clarovideocdn2-a\.akamaihd\.net\//,
           handler: 'cacheFirst'
         }
       ]
