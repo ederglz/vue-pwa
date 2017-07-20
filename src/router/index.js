@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Vuex from 'vuex'
 import Home from '../components/Home.vue'
 import InfoCard from '../components/InfoCard.vue'
+import NotFound from '../components/404.vue'
 Vue.use(Router)
 Vue.use(Vuex)
 export default new Router({
@@ -14,6 +15,10 @@ export default new Router({
     {
       path: '/episode',
       component: InfoCard
+    },
+    {
+      path: '/*',
+      component: NotFound
     }
   ]
 })

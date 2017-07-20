@@ -46,5 +46,5 @@ export default {
 <style lang="stylus" scoped>
   .error
     font-size 1.5rem
-    color white
+    color white 
 </style>
