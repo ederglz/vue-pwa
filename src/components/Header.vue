@@ -48,6 +48,7 @@ export default {
     font-size 1.2rem
     cursor pointer
   .container
+    flex-wrap wrap
     background-color #3417B7
     color #F8F739
     display flex
