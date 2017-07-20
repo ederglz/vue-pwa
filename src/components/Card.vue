@@ -44,4 +44,7 @@ export default {
   flex-wrap wrap
   &:hover
     transform scale(1.01, 1.01)
+@media only screen and (min-width: 700px)
+  .episode
+    justify-content flex-start
 </style>
